@@ -1,0 +1,117 @@
+body{
+    background:url('untitled.png');
+    background-size:cover;
+    font-family: Arial;
+    
+}
+.wrap{
+    margin:auto;
+    max-width:400px;
+    border-radius:20px;
+    background-color: black;box-shadow: #003366;
+    box-sizing:border-box;
+    padding:30px;
+    color:white;
+    margin-top:50px;
+    
+}
+
+
+h1{
+    text-align:left;
+    font-family: 'Courier New';
+}
+
+input[type=text],input[type=textarea],input[type=password],input[type=number]{
+    width:100%;
+    box-sizing:border-box;
+    padding:20px 20px;
+    background:rgba(94, 94, 201, 0.466);
+    outline:none;
+    border: none;
+    color:white;
+    border-bottom:5 px solid;
+    border-bottom-color:blue;
+    border-radius:5px;
+    margin:5px;
+    font-weight: bold;
+}
+
+.happy1{
+ width:100%;
+ box-sizing:border-box;
+ padding:10px 0;
+ margin-top:30px;
+ outline:none;
+ border:none;
+ background:#60adde;
+ 
+ font-size:20px;
+ border-radius:20px;
+ color:#fff;
+}
+.happy1:hover{
+    background:#003366;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 25px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: silver;
+  }
+
+  .footer {
+    grid-area: footer;
+   
+    padding: 10px;
+    text-align: center;
+  }
+  .happy {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+  }
+  
+  .happy:hover {  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .happy :after{
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
